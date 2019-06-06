@@ -4,7 +4,8 @@
   "description": "jwt signed token using RS256 and SH256 (default) ",
   "main": "jwt.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node jwt.js"
   },
   "author": "parth suthar",
   "license": "ISC",

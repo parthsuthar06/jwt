@@ -40,7 +40,9 @@ const verify = (token, publicKey) => {
 (async () => {
     try {
         //AuthN ms calls
-        const token = signToken({ foo: 'bar' }, PRIVATEKEY)
+        const payload = { foo: 'bar' };
+        console.log('payload--->', payload)
+        const token = signToken(payload, PRIVATEKEY)
         console.log('token--->', token)
         //client side ms calls
         const decode = verify(token, PUBLICKEY);
