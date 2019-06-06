@@ -1,2 +1,2 @@
 # jwt
-Covered Both the Cases RS256 and SH256
+Covered Both the Cases RS256(Asymmetric) and SH256(symmetric)
